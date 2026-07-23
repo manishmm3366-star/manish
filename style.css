@@ -5,6 +5,8 @@
     scroll-behavior: smooth;
 }
 
+
+
 :root {
     --primary: #00c6ff;
     --secondary: #0072ff;
@@ -192,6 +194,13 @@ header {
     flex: 1;
     display: flex;
     justify-content: center;
+}
+
+.profile-circle img {
+    width: 260px;
+    height: 260px;
+    object-fit: cover;
+    border-radius: 50%;
 }
 
 .profile-circle {
